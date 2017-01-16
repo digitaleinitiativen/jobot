@@ -23,7 +23,7 @@
         <td><%= offer.short_description %></td>
         <td><%= offer.about_us %></td>
         <td><%= offer.located_at %></td>
-        <td><%= offer.category %></td>
+        <td><%= offer.category.name %></td>
         <td><%= link_to 'Show', offer %></td>
         <td><%= link_to 'Edit', edit_offer_path(offer) %></td>
         <td><%= link_to 'Destroy', offer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
